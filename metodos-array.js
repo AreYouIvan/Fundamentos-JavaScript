@@ -9,7 +9,14 @@ var articulos = [
     { nombre: "Teclado", costo: 500 },
     { nombre: "Audifonos", costo: 1700 },
 ];
+
 //Metodo Filter
 var articulosFiltrados = articulos.filter(function(articulo){
     return articulo.costo <= 500;
-}
+});
+
+//Metodo MAP
+//return=delvolver
+var nombreArticulo = articulos.map(function(articulo){
+    return articulo.nombre
+});
