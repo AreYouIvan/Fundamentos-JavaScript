@@ -1,7 +1,9 @@
-function auto(marca, modelo, annio) {
-    this.marca = marca;
-    this.modelo = modelo;
-    this.annio = annio;
+class auto {
+    constructor(marca, modelo, annio) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.annio = annio;
+    }
 }
 
 var autos = [];
@@ -16,4 +18,4 @@ for(let i = 0 ; i < autos.length ; i++){
     console.log(autos[i]);
 }
 
-new // Hace referencia a nuestra funcion constructora.
+ //"new" Hace referencia a nuestra funcion constructora.
